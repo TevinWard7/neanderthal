@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+    line-height: 30px;
+    height: 700px;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+#logocontainer {
+}
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#profilecontainer {
+    float: left;
+}
+
+#profilephoto {
+    height: 400px;
+}
+
+#evolutioncontainer {
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+}
+
+footer {
+    height: 70px;
+    text-align: center;
+}
+
+#booklink {
+    height: 100px;
+    width: 100px;
+}
+
+/* hover states */
+
+#logo:hover, #booklink:hover {
+    opacity: 50%;
+}
