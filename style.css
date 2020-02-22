@@ -2,7 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    src: url(fonts/Apercu\ Pro\ Regular.otf);
+    font-family: apercu;
+    src: url(fonts/Raisonne.otf);
+    font-family: rais;
+}
+
 body {
+    font-size: medium;
+    letter-spacing: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600px;
     line-height: 30px;
@@ -27,8 +36,12 @@ header {
 }
 
 h1 {
+    font-family: apercu;
     text-align: center;
+}
 
+h3 {
+    font-family: apercu;
 }
 
 #profilecontainer {
@@ -46,8 +59,10 @@ h1 {
 }
 
 footer {
+    font-family: rais;
     height: 70px;
     text-align: center;
+    font-weight: 700;
 }
 
 #booklink {
